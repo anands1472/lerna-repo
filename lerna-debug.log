@@ -1,0 +1,15 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   lernaVersion: '5.1.6',
+0 silly argv   '$0': '..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js',
+0 silly argv   name: 'doctor'
+0 silly argv }
+1 notice cli v5.1.6
+2 verbose rootPath C:\Users\pilli\OneDrive\Desktop\Hospital
+3 error Error: Command failed with exit code 1: git config --get user.name
+3 error     at makeError (C:\Users\pilli\OneDrive\Desktop\Hospital\node_modules\execa\lib\error.js:60:11)
+3 error     at Function.module.exports.sync (C:\Users\pilli\OneDrive\Desktop\Hospital\node_modules\execa\index.js:194:17)
+3 error     at Object.execSync (C:\Users\pilli\OneDrive\Desktop\Hospital\node_modules\@lerna\child-process\index.js:39:16)
+3 error     at CreateCommand.gitConfig (C:\Users\pilli\OneDrive\Desktop\Hospital\node_modules\@lerna\create\index.js:181:25)
+3 error     at CreateCommand.initialize (C:\Users\pilli\OneDrive\Desktop\Hospital\node_modules\@lerna\create\index.js:103:46)
+3 error     at C:\Users\pilli\OneDrive\Desktop\Hospital\node_modules\@lerna\command\index.js:274:24
